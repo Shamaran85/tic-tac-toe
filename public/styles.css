@@ -19,7 +19,7 @@ body {
 }
 
 .board {
-  width: 176px;
+  width: 173px;
   display: grid;
   grid-template-columns: 50px 50px 50px;
   grid-template-rows: 50px 50px 50px;
@@ -55,4 +55,8 @@ body {
 .tile.line {
   color: gold;
   text-shadow: 0 0 5px black;
+}
+
+.statusMessage {
+  margin-bottom: 20px;
 }
