@@ -19,7 +19,7 @@ body {
 }
 
 .board {
-  width: 173px;
+  width: 172px;
   display: grid;
   grid-template-columns: 50px 50px 50px;
   grid-template-rows: 50px 50px 50px;
@@ -59,4 +59,8 @@ body {
 
 .statusMessage {
   margin-bottom: 20px;
+}
+
+button {
+  margin-top: 20px;
 }

@@ -17,7 +17,7 @@ export default function Message(props) {
   }
 
   return (
-    <div>{statusText}</div>
+    <div className="statusMessage">{statusText}</div>
   );
 }
 
