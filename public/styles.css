@@ -1,3 +1,7 @@
+body {
+  background-color: #eee;
+}
+
 .container {
   min-height: 100vh;
   display: flex;
@@ -8,24 +12,19 @@
 }
 
 #theGame {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  font-size: 18px;
   width: 400px;
   height: 400px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .board {
-  /* width: 186px; */
+  width: 186px;
   display: grid;
   grid-template-columns: 50px 50px 50px;
   grid-template-rows: 50px 50px 50px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  margin: 15px 0 auto;
+  margin: 0 auto;
 }
 
 .tile {
