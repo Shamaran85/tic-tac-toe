@@ -1,9 +1,10 @@
 body {
   background-color: #eee;
+  overflow: hidden;
 }
 
 .container {
-  min-height: 100vh;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
