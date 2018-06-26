@@ -27,6 +27,12 @@ body {
   margin: 0 auto;
 }
 
+.board:last-child {
+  display: grid;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+
 .tile {
   height: 50px;
   width: 50px;
